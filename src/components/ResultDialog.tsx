@@ -101,7 +101,6 @@ export default function ResultDialog({ onReset, ...props }: IProps) {
 							<Area
 								type="monotone"
 								dataKey="rawWpm"
-								label="Raw WPM"
 								stroke="var(--color-neutral-400)"
 								fill="var(--color-neutral-400)"
 								fillOpacity={0.2}
@@ -112,7 +111,6 @@ export default function ResultDialog({ onReset, ...props }: IProps) {
 							<Area
 								type="monotone"
 								dataKey="wpm"
-								label="WPM"
 								stroke="var(--color-sky-400)"
 								fill="var(--color-sky-400)"
 								fillOpacity={0.2}
